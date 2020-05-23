@@ -308,7 +308,7 @@ def getapi(pn,lim,cc):
         return False
     if lim == 3:
         headers = {
-            'Host': 'pharmeasy.in',
+            'Host': 'praveen.in',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0',
             'Accept': '*/*',
             'Accept-Language': 'en-US,en;q=0.5',
@@ -928,7 +928,7 @@ if nm == 0:
         print("    Total Number of Requests Sent : ", l)
         if int(l) > maxlim:
             print('\n\n\tSorry Due To Misuse Of This Script We Only Provide ' +
-                  str(maxlim) + ' SMS At Once...\n\n')
+                  str(minlim) + ' SMS At Once...\n\n')
             input('Press Enter To Exit...')
             os.system('rm *xxx* > /dev/null 2>&1')
             banner()
